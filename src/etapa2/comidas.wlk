@@ -27,3 +27,19 @@ object sorgo {
 }
 
 // despues, agregar mijo y canelones
+object mijo {
+	var energiaPorGramo = 20
+	method mojarse(){
+		energiaPorGramo= 15
+	}
+	method secarse(){
+		energiaPorGramo = 20
+	}
+	method energiaPorGramo(){
+		return energiaPorGramo
+	}
+}
+
+object canelones {
+	var energiaPorGramo
+}
