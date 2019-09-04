@@ -1,0 +1,15 @@
+import todosLosArchivos.*
+
+test "cosa representativa" {
+	roque.tuPuploEs(pepita)
+	roque.entrenar()
+	assert.equals(NUM BOOLEANO O STRING , pepita.energia())
+	y mas codigo para probar algun punto en especifico
+	
+}
+
+
+test "cosa repesentativa 2"{
+	se pueden poner mas de un tests en el mismo archivo
+	y probar varios tests al mismo tiempo
+}

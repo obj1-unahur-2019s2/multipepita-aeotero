@@ -1,10 +1,10 @@
 
 object pepon {
-	// aca falta un atributo
+	var energia = 0 
 	
-	method comer(cosa, cuanto) { }  // implementar
-	method volar(kms) { }           // implementar
-	method haceLoQueQuieras() { }   // implementar
+	method comer(cosa, gramos) { energia += (cosa.energiaPorGramo() / 2 ) * gramos }
+	method volar(kms) { energia -= ( kms * 0.5 ) + 1 }
+	method haceLoQueQuieras() { self.volar(1) }
 }
 
 // implementar el objeto entero, salvo haceLoQueQuieras que lo damos hecho
